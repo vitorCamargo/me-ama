@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Você me ama?</title>
+
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+    <script src="./script.js" type="text/javascript" defer=""></script>
+  </head>
+
+  <body>
+    <video autoplay muted loop id="background">
+      <source src="./assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <div class="wrapper">
+      <header id="header">
+        <h1>Você me ama?</h1>
+        <h4 id="subtitle1">Certeza que não? Vou deixar você tentar de novo!</h4>
+        <h4 id="subtitle2">Manezão, pode parar de graça e pensa direito.</h4>
+        <h4 id="subtitle3">Se clicar não de novo não tem mais volta!!</h4>
+      </header>
+
+      <main id="content" class="container">
+        <div class="buttons">
+          <button id="yes">SIM</button>
+
+          <button id="no">NÃO</button>
+        </div>
+
+        <img id="image1" src="./assets/imagem1.gif" />
+        <img id="image2" src="./assets/imagem2.jpg" />
+        <img id="image3" src="./assets/imagem3.webp" />
+      </main>
+
+      <video loop id="noVideo">
+        <source src="./assets/naomeama.mp4" type="video/mp4" />
+      </video>
+
+      <video loop id="yesVideo">
+        <source src="./assets/meama.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </body>
+</html>
